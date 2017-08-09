@@ -1,0 +1,23 @@
+name: Teleportplugin
+version: 1.8
+main: me.Omg_Its_Adrian.Teleportplugin.Randomteleporter.TeleportAndSpawn
+description: Random teleport, teleport to players and spawn
+
+commands:
+     tp:
+         usage: /<command>
+         aliases: [Teleport]
+         description: Teleport to other players
+         
+     setspawn:
+         usage: /<command>
+         aliases: [sspawn]
+         description: Set the spawn
+         
+     spawn:
+         usage: /<command>
+         description: Go to the spawn
+         
+      teleportme:
+         usage: /<command>
+         description: Get teleported randomly
